@@ -1,0 +1,23 @@
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    position: absolute;
+    height: 0;
+    top: 50%;
+    margin-top: 50px;
+    width: 0;
+
+    a {
+        width: 80px;
+        margin: 80px;
+    }
+}
+
+p {
+    line-height: 25px;
+}
