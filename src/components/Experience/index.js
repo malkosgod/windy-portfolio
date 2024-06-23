@@ -3,6 +3,7 @@ import Loader from 'react-loaders'
 import {
     faLinkedin,
     faGithub,
+    faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AnimatedLetters from '../AnimatedLetters'
@@ -27,21 +28,21 @@ const Contact = () => {
                             idx={15}
                         />
                     </h1>
-                    <h2>React Three Fiber</h2>
-                    <p>
-                        I'm interested in entry level or internship for software developer position, where I can learn and contribute to be an asset to the team.
-                        <br />
-                        Please don't hesitate to contact me if you need further information.
-                    </p>
-                    <p>
-                        Windy Wang
-                        <br />
-                        Melbourne, Victoria
-                        <br />
-                        Phone : +61 421 936 558
-                        <br />
-                        Email : windyakira@gmail.com
-                    </p>
+                    <div>
+                        <h2>React Three Fiber</h2>
+                        <p>
+                            This is a portfolio project that I have been working on to showcase my skills in React Three Fiber. 
+                            It is a 3D environment that I have created using React Three Fiber and it is a work in progress. 
+                            I will be adding more features to it in the future.
+                        </p>
+                        <a
+                        href="https://windy-r3f-portfolio.vercel.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faReact} color="#4d4d4e" />
+                    </a>
+                    </div>
                 </div>
             </div>
             <Loader type="pacman" />
