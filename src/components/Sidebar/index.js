@@ -6,7 +6,7 @@ import {
     faLinkedin,
     faGithub,
 } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faBook } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -23,6 +23,9 @@ const Sidebar = () => {
                 <NavLink activeclassname="active" className="about-link" to="/about">
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
                 </NavLink>
+                <NavLink activeclassname="active" className="experience-link" to="/experience">
+                    <FontAwesomeIcon icon={faBook} color="#4d4d4e" />
+                </NavLink>
                 <NavLink
                     activeclassname="active"
                     className="contact-link"
@@ -30,6 +33,7 @@ const Sidebar = () => {
                 >
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                 </NavLink>
+                
             </nav>
             <ul>
                 <li>

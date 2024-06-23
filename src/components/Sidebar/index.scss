@@ -84,6 +84,12 @@
             }
         }
 
+        a.experience-link {
+            &:after {
+                content: 'EXPERIENCE';
+            }
+        }
+
         a.contact-link {
             &:after {
                 content: 'CONTACT';

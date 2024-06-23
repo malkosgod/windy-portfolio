@@ -25,17 +25,19 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>I'm passionate about web and mobile application development and I would love to
-                        learn, deepen my knowledge, and start my career in software development.
-                        I want to develop my problem-solving skill as well as interpersonal skills. </p>
                     <p>
-                        I'm a team player, a fast learner, naturally curious,
-                        and able to work in a number of environments.
+                        I'm passionate about software development and I would love to
+                        learn, deepen my knowledge, and start my career in website development.
                     </p>
                     <p>
-                        I am willing to learn and work hard if given the opportunity. Most importantly
-                        I come with enthusiasm, initiative, positive attitude, and the ability to work hard.
-                        I pride myself on being the three p’s. Punctual, Polite, Professional.
+                        Currently pursuing a Master of Information Technology from Kaplan Business School Melbourne. I
+                        have academic/professional experience in/using HTML & CSS, JavaScript, Reacts, THREEJS, SQL,
+                        Python, and NodeJS. Additionally, I have exceptional communication, interpersonal and time
+                        management skills. I also enjoy working in a team environment but can work autonomously.
+                    </p>
+                    <p>
+                        I am currently seeking a role as a Website Developer where I can further develop my overall skill set
+                        and build a career in the IT industry. I am open to any opportunities that will allow me to grow and learn from experienced professionals.
                     </p>
                 </div>
 
